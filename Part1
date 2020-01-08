@@ -1,0 +1,39 @@
+print("U2IP_CS199T-1904D-02" + "Created by Dolan Cherry.")
+
+#Item i
+print("Looking at this function x = 7+3*6/2-1")
+operation_order_one= ['*', '/', '+','-']
+print("Operation of the statement is:" + str(operation_order_one))
+print("1: Multiplication (*)")
+print("2: Division (/)")
+print("3: Addition (+)")
+print("4: Subtraction (-)")
+print("Finding the value of x with x = 7+3*6/2-1")
+result = int(7+3*6/2-1)
+print("x=" + str(result))
+
+#Item ii
+print("Looking at this function x=2%2+2*2-2/2")
+operation_order_two= ['%', '*', '/', '+', '-']
+print("Operation of the statement is:" + str(operation_order_two))
+print("1: Modulus (%)")
+print("2: Multiplication (*)")
+print("3: Division (/)")
+print("4: Addition (+)")
+print("5: Subtraction (-)")
+print("Finding the value of x with x=2%2+2*2-2/2")
+result = int(2%2+2*2-2/2)
+print("x=" + str(result))
+
+#Item iii
+print("Looking at this function x=(3*9*(3+(9*3/3)))")
+operation_order_three= ['*', '/', '+', '* after 3', '* after 9']
+print("Operation of the statement is:" + str(operation_order_three))
+print("1: Multiplication (*)")
+print("3: Division (/)")
+print("4: Addition (+)")
+print("5: Multiplication (*) after the 3")
+print("6: Multiplication (*) after the 9")
+print("Finding the value of x with x=(3*9*(3+(9*3/3)))")
+result = int((3*9*(3+(9*3/3))))
+print("x=" + str(result))
