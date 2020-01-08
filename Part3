@@ -1,0 +1,13 @@
+print("U2IP_CS199T-1904D-02" + "Created by Dolan Cherry.")
+
+#This pulls in all Math functions from this module
+import math
+radius = int(input("What is the radius of the circle? "))
+diameter_circle = float(2*radius)
+circumference_circle = float(2*math.pi*radius)
+area_cicle = float((radius)**2*math.pi)
+
+print("The radius of this circle is " + str(radius))
+print("The diameter of this circle is " + str(diameter_circle))
+print("The circumference of this circle is " + str(circumference_circle))
+print("The area of this circle is " + str(area_cicle))
