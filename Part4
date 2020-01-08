@@ -1,0 +1,17 @@
+print("U2IP_CS199T-1904D-02" + "Created by Dolan Cherry.")
+
+num1 = int(input("Enter an integer "))
+print("The integer you entered is " + str(num1))
+
+even = int(num1 % 2)
+odd = int(num1 % 2)
+
+#Had to look up the if...else function as I'm used to "if-then"
+# found == to be equal to and != to be not equal to. Used the first option since even is on line 6.
+
+print("Is this number even or odd? ")
+if even==0:
+    print("This number is even")
+else:
+    print("This number is odd.")
+
