@@ -1,0 +1,17 @@
+print("U2IP_CS199T-1904D-02" + "Created by Dolan Cherry.")
+
+#using numbers; 13, 27, and 14
+num1 = int(input("Please enter in your first number "))
+num2 = int(input("Please enter in your second number "))
+num3 = int(input("Please enter in your third number "))
+print("The numbers provided are " + str(num1) + ", " + str(num2) + ", " + str(num3))
+
+#created functions to reduce length of code
+average = int((num1 + num2 + num3)/3)
+product = (num1*num2*num3)
+
+print("The sum is " + str(num1 + num2 + num3))
+print("The average is " + str(average))
+print("The product is " + str(product))
+print("The smallest is " + str(min(num1, num2, num3)))
+print("The largest is " + str(max(num1, num2, num3)))
